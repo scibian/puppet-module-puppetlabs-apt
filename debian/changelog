@@ -1,3 +1,12 @@
+puppet-module-puppetlabs-apt (8.0.2-1sci9u1) scibian9; urgency=medium
+
+  [ Kwame Amedodji ]
+  * add debian directory from branch scibian/jessie
+  * fix issue with match alias introduce in ruby 2.4+
+  * fix issue with resource type not found
+
+ -- Kwame AMEDODJI <kwame-externe.amedodji@edf.fr>  Sun, 25 Apr 2021 15:49:36 +0200
+
 puppet-module-puppetlabs-apt (2.3.0-1sci8u1) scibian8; urgency=medium
 
   * New uptream release for scibian 8
