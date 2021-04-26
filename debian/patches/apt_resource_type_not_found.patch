@@ -1,0 +1,19 @@
+--- a/manifests/init.pp
++++ b/manifests/init.pp
+@@ -135,14 +135,14 @@ class apt (
+   Hash $confs                   = $apt::params::confs,
+   Hash $update                  = $apt::params::update,
+   Hash $purge                   = $apt::params::purge,
+-  Apt::Proxy $proxy             = $apt::params::proxy,
++  Hash $proxy                   = $apt::params::proxy,
+   Hash $sources                 = $apt::params::sources,
+   Hash $keys                    = $apt::params::keys,
+   Hash $ppas                    = $apt::params::ppas,
+   Hash $pins                    = $apt::params::pins,
+   Hash $settings                = $apt::params::settings,
+   Boolean $manage_auth_conf     = $apt::params::manage_auth_conf,
+-  Array[Apt::Auth_conf_entry]
++  Array[Hash]
+     $auth_conf_entries          = $apt::params::auth_conf_entries,
+   String $auth_conf_owner       = $apt::params::auth_conf_owner,
+   String $root                  = $apt::params::root,
