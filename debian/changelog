@@ -1,3 +1,9 @@
+puppet-module-puppetlabs-apt (8.0.2-1sci9u2) scibian9; urgency=medium
+
+  * suppress tests/control to fix autopkgtest issue
+
+ -- Kwame AMEDODJI <kwame-externe.amedodji@edf.fr>  Tue, 27 Apr 2021 16:25:25 +0200
+
 puppet-module-puppetlabs-apt (8.0.2-1sci9u1) scibian9; urgency=medium
 
   [ Kwame Amedodji ]
