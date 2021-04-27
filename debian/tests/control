@@ -1,3 +1,0 @@
-Tests: run
-Depends: @,lsb-release
-Restrictions: needs-root,allow-stderr
