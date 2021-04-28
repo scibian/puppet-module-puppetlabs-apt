@@ -22,7 +22,7 @@ define apt::conf (
 
   unless $ensure == 'absent' {
     unless $content {
-      fail('Need to pass in content parameter')
+      fail(translate('Need to pass in content parameter'))
     }
   }
 

@@ -375,12 +375,7 @@ Data type: `Hash`
 
 
 
-Default value: `{
-    'server'  => $keyserver,
-    'options' => undef,
-    'content' => undef,
-    'source'  => undef,
-  }`
+Default value: `$apt::params::source_key_defaults`
 
 ### <a name="aptbackports"></a>`apt::backports`
 

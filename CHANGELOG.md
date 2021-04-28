@@ -2,31 +2,6 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v8.0.2](https://github.com/puppetlabs/puppetlabs-apt/tree/v8.0.2) (2021-03-29)
-
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v8.0.1...v8.0.2)
-
-### Fixed
-
-- \(MODULES-10971\) - Ensure `apt::keyserver` is considered when creating a default apt:source [\#981](https://github.com/puppetlabs/puppetlabs-apt/pull/981) ([david22swan](https://github.com/david22swan))
-- \(IAC-1497\) - Removal of unsupported `translate` dependency [\#979](https://github.com/puppetlabs/puppetlabs-apt/pull/979) ([david22swan](https://github.com/david22swan))
-
-## [v8.0.1](https://github.com/puppetlabs/puppetlabs-apt/tree/v8.0.1) (2021-03-15)
-
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v8.0.0...v8.0.1)
-
-### Fixed
-
-- MODULES-10956 remove redundant code in provider apt\_key [\#973](https://github.com/puppetlabs/puppetlabs-apt/pull/973) ([moritz-makandra](https://github.com/moritz-makandra))
-
-## [v8.0.0](https://github.com/puppetlabs/puppetlabs-apt/tree/v8.0.0) (2021-03-01)
-
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v7.7.1...v8.0.0)
-
-### Changed
-
-- pdksync - Remove Puppet 5 from testing and bump minimal version to 6.0.0 [\#969](https://github.com/puppetlabs/puppetlabs-apt/pull/969) ([carabasdaniel](https://github.com/carabasdaniel))
-
 ## [v7.7.1](https://github.com/puppetlabs/puppetlabs-apt/tree/v7.7.1) (2021-02-15)
 
 [Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v7.7.0...v7.7.1)
