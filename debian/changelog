@@ -1,3 +1,9 @@
+puppet-module-puppetlabs-apt (8.0.2-1sci9u4) scibian9; urgency=medium
+
+  * delete resource type patch as isn't an issue
+
+ -- Kwame AMEDODJI <kwame-externe.amedodji@edf.fr>  Thu, 29 Apr 2021 16:04:23 +0200
+
 puppet-module-puppetlabs-apt (8.0.2-1sci9u3) scibian9; urgency=medium
 
   * ignore debian/files and .pc right now
