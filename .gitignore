@@ -26,4 +26,4 @@
 .envrc
 /inventory.yaml
 debian/files
-./pc
+/.pc/
