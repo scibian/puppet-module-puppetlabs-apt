@@ -1,3 +1,11 @@
+puppet-module-puppetlabs-apt (8.0.2-1sci9u3) scibian9; urgency=medium
+
+  * ignore debian/files and .pc right now
+  * fix issue with .pc
+  * add missing types in install files
+
+ -- Kwame AMEDODJI <kwame-externe.amedodji@edf.fr>  Thu, 29 Apr 2021 14:20:18 +0200
+
 puppet-module-puppetlabs-apt (8.0.2-1sci9u2) scibian9; urgency=medium
 
   * suppress tests/control to fix autopkgtest issue
